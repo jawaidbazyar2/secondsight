@@ -1,0 +1,22 @@
+        db  067h ; misc out reg
+        db  028h ; clocking mode reg
+        db  001h ; feature ctl
+
+        db  00Fh,000h,006h  ; Sequencer regs
+
+        db  039h,027h,02Bh,09Ah,031h,09Ah,000h,001h  ; Sequencer regs
+        db  000h,040h,000h,000h,000h,000h,000h,000h  ; Sequencer regs
+        db  0DAh,03Ah,0C0h,014h,01Fh,0E1h,0E7h,0E3h  ; Sequencer regs
+        db  0FFh
+
+        db  000h,000h,000h,000h,000h,000h,005h,00Fh  ; Graphics Regs
+        db  0FFh
+
+        db  000h,001h,002h,003h,004h,005h,006h,007h  ; $00 - $07 Attribute regs
+        db  008h,009h,00Ah,00Bh,00Ch,00Dh,00Eh,00Fh  ; $08 - $0F
+        db  001h,000h,00Fh,000h,000h                       ; $10 - $14
+
+        db  005h,010h,007h,000h,005h          ; $02 - $06  Extended regs
+        db  0C8h,000h,000h,000h,00Fh          ; $13..$15,$17, & $19
+        db  005h,000h,008h,000h                 ; $30..$22, $25
+        db  000h,000h,000h,000h,000h,000h   ; $30..$35

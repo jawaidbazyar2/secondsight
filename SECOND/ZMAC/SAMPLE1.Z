@@ -1,0 +1,1 @@
+;**		org	2000h	mytestcode:		ld	a,(a_label)		reta_label:			byte	0		END

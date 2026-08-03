@@ -1,0 +1,1 @@
+#setreg: setreg.c vga.h    cmpl setreg.c keep=setregprintreg: printreg.c    cmpl printreg keep=printregt1: t1.c    cmpl t1.c keep=t1
