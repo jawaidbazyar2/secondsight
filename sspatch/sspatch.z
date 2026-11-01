@@ -1,0 +1,12 @@
+; Fixes a bug where UploadData can't be used to upload code, and updates the ROM version to 1.5
+;
+; zmac --z180 sspatch.z
+; outputs to zout\sspatch.lst
+
+	org	0x2000
+
+	ld	a, 0x11
+	ld	(0x1348), a
+	ld	a, 0x15
+	ld	(0x11A9), a
+	ret
